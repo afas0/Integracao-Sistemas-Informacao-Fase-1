@@ -1,0 +1,8 @@
+https://api.escuelajs.co/api/v1/products/10
+https://api.escuelajs.co/api/v1/products/13
+https://api.escuelajs.co/api/v1/products/74
+https://api.escuelajs.co/api/v1/products/56
+https://api.escuelajs.co/api/v1/products/16
+https://api.escuelajs.co/api/v1/products/8
+https://api.escuelajs.co/api/v1/products/7
+https://api.escuelajs.co/api/v1/products/6

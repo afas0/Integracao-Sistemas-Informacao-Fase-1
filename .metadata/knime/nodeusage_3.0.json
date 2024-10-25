@@ -1,0 +1,669 @@
+{
+    "version": "5.3.2.v202409051351",
+    "created": "2024-10-17 17:38",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.rest.nodes.get.RestGetNodeFactory",
+                "nodename": "GET Request",
+                "nrexecs": 47,
+                "nrfails": 2,
+                "exectime": 32563,
+                "nrcreated": 4,
+                "successor": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory",
+                "successornodename": "JSON Path"
+            },
+            {
+                "id": "org.knime.json.node.totable.JSONToTableNodeFactory",
+                "nodename": "JSON to Table",
+                "nrexecs": 13,
+                "nrfails": 0,
+                "exectime": 17793,
+                "nrcreated": 5,
+                "successor": "org.knime.rest.nodes.get.RestGetNodeFactory",
+                "successornodename": "GET Request"
+            },
+            {
+                "id": "org.knime.rest.nodes.webpageretriever.WebpageRetrieverNodeFactory",
+                "nodename": "Webpage Retriever",
+                "nrexecs": 4,
+                "nrfails": 9,
+                "exectime": 31896,
+                "nrcreated": 1,
+                "successor": "org.knime.xml.node.xpath2.XPathNodeFactory",
+                "successornodename": "XPath"
+            },
+            {
+                "id": "org.knime.json.node.fromxml.XMLToJSONNodeFactory",
+                "nodename": "XML to JSON",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 251,
+                "nrcreated": 2,
+                "successor": "org.knime.json.node.totable.JSONToTableNodeFactory",
+                "successornodename": "JSON to Table"
+            },
+            {
+                "id": "org.knime.xml.node.filehandling.reader.XMLReaderNodeFactory2",
+                "nodename": "XML Reader",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.xml.node.xpath2.XPathNodeFactory",
+                "nodename": "XPath",
+                "nrexecs": 19,
+                "nrfails": 0,
+                "exectime": 307,
+                "nrcreated": 4,
+                "successor": "org.knime.base.node.preproc.ungroup.UngroupNodeFactory",
+                "successornodename": "Ungroup"
+            },
+            {
+                "id": "org.knime.base.views.node.tableview.TableViewNodeFactory",
+                "nodename": "Table View",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 5,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory",
+                "nodename": "JSON Path",
+                "nrexecs": 72,
+                "nrfails": 0,
+                "exectime": 1583,
+                "nrcreated": 9,
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
+                "successornodename": "Joiner"
+            },
+            {
+                "id": "org.knime.base.node.preproc.ungroup.UngroupNodeFactory",
+                "nodename": "Ungroup",
+                "nrexecs": 86,
+                "nrfails": 0,
+                "exectime": 254,
+                "nrcreated": 8,
+                "successor": "org.knime.ext.jep.JEPNodeFactory",
+                "successornodename": "Math Formula"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "nodename": "Column Filter",
+                "nrexecs": 87,
+                "nrfails": 0,
+                "exectime": 30,
+                "nrcreated": 5,
+                "successor": "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory",
+                "successornodename": "Cross Joiner"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory",
+                "nodename": "String Manipulation",
+                "nrexecs": 122,
+                "nrfails": 0,
+                "exectime": 524,
+                "nrcreated": 9,
+                "successor": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory",
+                "successornodename": "String Manipulation"
+            },
+            {
+                "id": "org.knime.json.node.fromstring.StringToJSONNodeFactory",
+                "nodename": "String to JSON",
+                "nrexecs": 21,
+                "nrfails": 15,
+                "exectime": 166,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory",
+                "successornodename": "Constant Value Column"
+            },
+            {
+                "id": "org.knime.rest.nodes.post.RestPostNodeFactory",
+                "nodename": "POST Request",
+                "nrexecs": 36,
+                "nrfails": 2,
+                "exectime": 20264,
+                "nrcreated": 5,
+                "successor": "org.knime.rest.nodes.get.RestGetNodeFactory",
+                "successornodename": "GET Request"
+            },
+            {
+                "id": "org.knime.json.node.filehandling.reader.JSONReaderNodeFactory",
+                "nodename": "JSON Reader",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.ext.jep.JEPNodeFactory",
+                "nodename": "Math Formula",
+                "nrexecs": 76,
+                "nrfails": 0,
+                "exectime": 487,
+                "nrcreated": 5,
+                "successor": "org.knime.base.node.preproc.double2int2.DoubleToIntNodeFactory",
+                "successornodename": "Double to Integer"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringreplacer.StringReplacerNodeFactory",
+                "nodename": "String Replacer",
+                "nrexecs": 45,
+                "nrfails": 0,
+                "exectime": 72,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory",
+                "successornodename": "Normalizer"
+            },
+            {
+                "id": "org.knime.base.node.preproc.sorter.SorterNodeFactory",
+                "nodename": "Sorter",
+                "nrexecs": 21,
+                "nrfails": 0,
+                "exectime": 119,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory",
+                "successornodename": "String Manipulation"
+            },
+            {
+                "id": "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2",
+                "nodename": "RowID",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 55,
+                "nrcreated": 3,
+                "successor": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory",
+                "successornodename": "JSON Path"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory",
+                "nodename": "Row Filter",
+                "nrexecs": 13,
+                "nrfails": 0,
+                "exectime": 1720,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.rules.engine.RuleEngineNodeFactory",
+                "successornodename": "Rule Engine"
+            },
+            {
+                "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
+                "nodename": "GroupBy",
+                "nrexecs": 48,
+                "nrfails": 0,
+                "exectime": 416,
+                "nrcreated": 8,
+                "successor": "org.knime.base.node.flowvariable.tablerowtovariable3.TableToVariable3NodeFactory",
+                "successornodename": "Table Row to Variable"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pivot.Pivot2NodeFactory",
+                "nodename": "Pivot",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 4169,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
+                "nodename": "Joiner",
+                "nrexecs": 54,
+                "nrfails": 0,
+                "exectime": 866,
+                "nrcreated": 7,
+                "successor": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory",
+                "successornodename": "Duplicate Row Filter"
+            },
+            {
+                "id": "org.knime.json.node.fromtable.TableToJsonNodeFactory",
+                "nodename": "Table to JSON",
+                "nrexecs": 21,
+                "nrfails": 0,
+                "exectime": 177,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
+                "successornodename": "GroupBy"
+            },
+            {
+                "id": "org.knime.json.node.combine.row.RowCombineJsonNodeFactory",
+                "nodename": "JSON Row Combiner",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 8,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.json.node.tojson.ColumnsToJsonNodeFactory",
+                "nodename": "Columns to JSON",
+                "nrexecs": 23,
+                "nrfails": 0,
+                "exectime": 119,
+                "nrcreated": 4,
+                "successor": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
+                "successornodename": "GroupBy"
+            },
+            {
+                "id": "org.knime.base.expressions.node.ExpressionNodeFactory",
+                "nodename": "Expression",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 4,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.rules.engine.RuleEngineNodeFactory",
+                "nodename": "Rule Engine",
+                "nrexecs": 14,
+                "nrfails": 0,
+                "exectime": 53,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.stringreplacer.StringReplacerNodeFactory",
+                "successornodename": "String Replacer"
+            },
+            {
+                "id": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+                "nodename": "Column Renamer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 2,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory",
+                "nodename": "Normalizer",
+                "nrexecs": 14,
+                "nrfails": 0,
+                "exectime": 557,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.rules.engine.RuleEngineNodeFactory",
+                "successornodename": "Rule Engine"
+            },
+            {
+                "id": "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory",
+                "nodename": "Table Creator",
+                "nrexecs": 23,
+                "nrfails": 0,
+                "exectime": 35,
+                "nrcreated": 3,
+                "successor": "org.knime.json.node.fromtable.TableToJsonNodeFactory",
+                "successornodename": "Table to JSON"
+            },
+            {
+                "id": "org.knime.base.node.util.sendmail.SendMailNodeFactory",
+                "nodename": "Send Email",
+                "nrexecs": 7,
+                "nrfails": 11,
+                "exectime": 251410,
+                "nrcreated": 3,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory",
+                "nodename": "CSV Writer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 9,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory",
+                "nodename": "Excel Writer",
+                "nrexecs": 36,
+                "nrfails": 9,
+                "exectime": 2762,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.util.sendmail.SendMailNodeFactory",
+                "successornodename": "Send Email"
+            },
+            {
+                "id": "org.knime.filehandling.utility.nodes.tempdir.CreateTempDir2NodeFactory",
+                "nodename": "Create Temp Folder",
+                "nrexecs": 14,
+                "nrfails": 0,
+                "exectime": 80,
+                "nrcreated": 4,
+                "successor": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory",
+                "successornodename": "Excel Writer"
+            },
+            {
+                "id": "org.knime.base.node.util.createtempdir.CreateTempDirectoryNodeFactory",
+                "nodename": "Create Temp Dir (legacy)",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 2,
+                "nrcreated": 3,
+                "successor": "org.knime.filehandling.utility.nodes.pathtostring.PathToStringNodeFactory",
+                "successornodename": "Path to String"
+            },
+            {
+                "id": "org.knime.base.node.flowvariable.tablerowtovariable3.TableToVariable3NodeFactory",
+                "nodename": "Table Row to Variable",
+                "nrexecs": 20,
+                "nrfails": 0,
+                "exectime": 7,
+                "nrcreated": 3,
+                "successor": "org.knime.ext.jep.JEPNodeFactory",
+                "successornodename": "Math Formula"
+            },
+            {
+                "id": "org.knime.filehandling.utility.nodes.dir.CreateDirectory2NodeFactory",
+                "nodename": "Create Folder",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.filehandling.utility.nodes.pathtostring.PathToStringNodeFactory",
+                "nodename": "Path to String",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "org.knime.base.filehandling.upload2.UploadNodeFactory",
+                "successornodename": "Upload (legacy)"
+            },
+            {
+                "id": "org.knime.filehandling.utility.nodes.pathtostring.variable.PathToStringVariableNodeFactory",
+                "nodename": "Path to String (Variable)",
+                "nrexecs": 11,
+                "nrfails": 0,
+                "exectime": 6,
+                "nrcreated": 1,
+                "successor": "org.knime.filehandling.utility.nodes.pathtostring.PathToStringNodeFactory",
+                "successornodename": "Path to String"
+            },
+            {
+                "id": "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory",
+                "nodename": "Transfer Files",
+                "nrexecs": 9,
+                "nrfails": 1,
+                "exectime": 5619,
+                "nrcreated": 3,
+                "successor": "org.knime.base.filehandling.upload2.UploadNodeFactory",
+                "successornodename": "Upload (legacy)"
+            },
+            {
+                "id": "org.knime.js.base.node.widget.input.fileupload.FileUploadWidgetNodeFactory",
+                "nodename": "File Upload Widget",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.filehandling.remote.connectioninformation.node.ftp.FTPConnectionInformationNodeFactory",
+                "nodename": "FTP Connection (legacy)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 4,
+                "nrcreated": 2,
+                "successor": "org.knime.base.filehandling.upload2.UploadNodeFactory",
+                "successornodename": "Upload (legacy)"
+            },
+            {
+                "id": "org.knime.ext.ftp.filehandling.node.FtpConnectorNodeFactory",
+                "nodename": "FTP Connector",
+                "nrexecs": 10,
+                "nrfails": 1,
+                "exectime": 5060,
+                "nrcreated": 1,
+                "successor": "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory",
+                "successornodename": "Transfer Files"
+            },
+            {
+                "id": "org.knime.js.base.node.quickform.input.fileupload.FileUploadQuickFormNodeFactory",
+                "nodename": "File Upload (legacy)",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.filehandling.upload2.UploadNodeFactory",
+                "nodename": "Upload (legacy)",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 19089,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.reporting2.nodes.create.ReportTemplateCreatorNodeFactory",
+                "nodename": "Report Template Creator",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.database.extension.mysql.node.connector.MySQLDBConnectorNodeFactory",
+                "nodename": "MySQL Connector",
+                "nrexecs": 10,
+                "nrfails": 1,
+                "exectime": 1242,
+                "nrcreated": 2,
+                "successor": "org.knime.database.node.io.write.DBWriteNodeFactory",
+                "successornodename": "DB Writer"
+            },
+            {
+                "id": "org.knime.database.node.io.insert.DBInsertNodeFactory",
+                "nodename": "DB Insert",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.database.node.io.write.DBWriteNodeFactory",
+                "nodename": "DB Writer",
+                "nrexecs": 9,
+                "nrfails": 18,
+                "exectime": 4020,
+                "nrcreated": 2,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.database.node.connector.generic.DBConnectorNodeFactory",
+                "nodename": "DB Connector",
+                "nrexecs": 0,
+                "nrfails": 1,
+                "exectime": 7,
+                "nrcreated": 1,
+                "successor": "org.knime.database.node.io.write.DBWriteNodeFactory",
+                "successornodename": "DB Writer"
+            },
+            {
+                "id": "org.knime.json.node.toxml.JSONToXMLNodeFactory",
+                "nodename": "JSON to XML",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 147,
+                "nrcreated": 2,
+                "successor": "org.knime.xml.node.xpath2.XPathNodeFactory",
+                "successornodename": "XPath"
+            },
+            {
+                "id": "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory",
+                "nodename": "String to Number",
+                "nrexecs": 23,
+                "nrfails": 0,
+                "exectime": 26,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory",
+                "successornodename": "String Manipulation"
+            },
+            {
+                "id": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
+                "nodename": "Concatenate",
+                "nrexecs": 36,
+                "nrfails": 0,
+                "exectime": 13,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "successornodename": "Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.columnaggregator.ColumnAggregatorNodeFactory",
+                "nodename": "Column Aggregator",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 9,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.variablecreator.VariableCreatorNodeFactory",
+                "nodename": "Variable Creator",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
+                "successornodename": "GroupBy"
+            },
+            {
+                "id": "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory",
+                "nodename": "Constant Value Column",
+                "nrexecs": 28,
+                "nrfails": 0,
+                "exectime": 30,
+                "nrcreated": 1,
+                "successor": "org.knime.ext.jep.JEPNodeFactory",
+                "successornodename": "Math Formula"
+            },
+            {
+                "id": "org.knime.rest.nodes.delete.RestDeleteNodeFactory",
+                "nodename": "DELETE Request",
+                "nrexecs": 21,
+                "nrfails": 0,
+                "exectime": 11302,
+                "nrcreated": 1,
+                "successor": "org.knime.rest.nodes.post.RestPostNodeFactory",
+                "successornodename": "POST Request"
+            },
+            {
+                "id": "org.knime.base.node.preproc.columntogrid2.ColumnToGrid2NodeFactory",
+                "nodename": "Column to Grid",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 5,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.double2int2.DoubleToIntNodeFactory",
+                "nodename": "Double to Integer",
+                "nrexecs": 34,
+                "nrfails": 0,
+                "exectime": 26,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory",
+                "successornodename": "Constant Value Column"
+            },
+            {
+                "id": "org.knime.database.node.io.update.DBUpdateNodeFactory",
+                "nodename": "DB Update",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.database.node.disposal.connection.DBCloseConnectionNodeFactory",
+                "nodename": "DB Connection Closer",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 42,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory",
+                "nodename": "Cross Joiner",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory",
+                "nodename": "Duplicate Row Filter",
+                "nrexecs": 24,
+                "nrfails": 0,
+                "exectime": 260,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "successornodename": "Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
+                "nodename": "Missing Value",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 4861,
+                "nrcreated": 1,
+                "successor": "org.knime.ext.jep.JEPNodeFactory",
+                "successornodename": "Math Formula"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+            "WEB_UI": 164
+        }
+    },
+    "uptime": 176223287,
+    "workflowsOpened": 4,
+    "remoteWorkflowsOpened": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 0,
+    "lastUsedPerspective": "none",
+    "launches": 4,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 105965963,
+    "crashes": 0,
+    "properlyShutDown": false
+}

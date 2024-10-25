@@ -1,0 +1,4 @@
+/htdocs
+/knime
+/uploads
+./knimetemp-a9895d4f679642dd/relatorio.xlsx

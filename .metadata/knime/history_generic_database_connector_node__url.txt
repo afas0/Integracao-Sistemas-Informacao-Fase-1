@@ -1,0 +1,4 @@
+jdbc:mysql://<host>:<port>/[database]
+jdbc:<protocol>://<host>:<port>/<database>
+jdbc:sqlite:[location=file?<file>][location=in-memory?file:<database>?mode=memory&cache=shared]
+jdbc:postgresql://<host>:<port>/[database]

@@ -1,0 +1,3 @@
+https://api.escuelajs.co/api/v1/products/
+https://fakeapi.platzi.com/en/rest/products/
+https://0g5m5xxuz2.execute-api.eu-north-1.amazonaws.com/Deplyoment/rest_demo

@@ -1,0 +1,22 @@
+{
+  "version" : "5.3.2.v202409051351",
+  "projects" : [ {
+    "name" : "Quanto_Custa",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Quanto_Custa"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "Quanto_Custa",
+    "timeUsed" : "2024-10-17T18:41:25.6456755+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Quanto_Custa"
+    }
+  } ]
+}

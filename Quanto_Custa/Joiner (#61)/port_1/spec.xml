@@ -1,0 +1,2059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+    <entry key="spec_name" type="xstring" value="default"/>
+    <entry key="number_columns" type="xint" value="26"/>
+    <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="ids"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="1"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="106"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_1">
+        <entry key="column_name" type="xstring" value="titles"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="105"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Essence Mascara Lash Princess"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Eyeshadow Palette with Mirror"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Powder Canister"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Red Lipstick"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Red Nail Polish"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Calvin Klein CK One"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Chanel Coco Noir Eau De"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Dior J'adore"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Dolce Shine Eau de"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Gucci Bloom Eau de"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Annibale Colombo Bed"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Annibale Colombo Sofa"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Bedside Table African Cherry"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Knoll Saarinen Executive Conference Chair"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Wooden Bathroom Sink With Mirror"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Apple"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Beef Steak"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Cat Food"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Chicken Meat"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Cooking Oil"/>
+                    </config>
+                </config>
+                <config key="20">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Cucumber"/>
+                    </config>
+                </config>
+                <config key="21">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Dog Food"/>
+                    </config>
+                </config>
+                <config key="22">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Eggs"/>
+                    </config>
+                </config>
+                <config key="23">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Fish Steak"/>
+                    </config>
+                </config>
+                <config key="24">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Green Bell Pepper"/>
+                    </config>
+                </config>
+                <config key="25">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Green Chili Pepper"/>
+                    </config>
+                </config>
+                <config key="26">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Honey Jar"/>
+                    </config>
+                </config>
+                <config key="27">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Ice Cream"/>
+                    </config>
+                </config>
+                <config key="28">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Juice"/>
+                    </config>
+                </config>
+                <config key="29">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Kiwi"/>
+                    </config>
+                </config>
+                <config key="30">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"/>
+                    </config>
+                </config>
+                <config key="31">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Mens Casual Premium Slim Fit T-Shirts "/>
+                    </config>
+                </config>
+                <config key="32">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Mens Cotton Jacket"/>
+                    </config>
+                </config>
+                <config key="33">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Mens Casual Slim Fit"/>
+                    </config>
+                </config>
+                <config key="34">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="John Hardy Women's Legends Naga Gold &amp; Silver Dragon Station Chain Bracelet"/>
+                    </config>
+                </config>
+                <config key="35">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Solid Gold Petite Micropave "/>
+                    </config>
+                </config>
+                <config key="36">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="White Gold Plated Princess"/>
+                    </config>
+                </config>
+                <config key="37">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Pierced Owl Rose Gold Plated Stainless Steel Double"/>
+                    </config>
+                </config>
+                <config key="38">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="WD 2TB Elements Portable External Hard Drive - USB 3.0 "/>
+                    </config>
+                </config>
+                <config key="39">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s"/>
+                    </config>
+                </config>
+                <config key="40">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5"/>
+                    </config>
+                </config>
+                <config key="41">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive"/>
+                    </config>
+                </config>
+                <config key="42">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin"/>
+                    </config>
+                </config>
+                <config key="43">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED "/>
+                    </config>
+                </config>
+                <config key="44">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats"/>
+                    </config>
+                </config>
+                <config key="45">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket"/>
+                    </config>
+                </config>
+                <config key="46">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Rain Jacket Women Windbreaker Striped Climbing Raincoats"/>
+                    </config>
+                </config>
+                <config key="47">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="MBJ Women's Solid Short Sleeve Boat Neck V "/>
+                    </config>
+                </config>
+                <config key="48">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Opna Women's Short Sleeve Moisture"/>
+                    </config>
+                </config>
+                <config key="49">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="DANVOUY Womens T Shirt Casual Cotton Short"/>
+                    </config>
+                </config>
+                <config key="50">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Red Pullover Hoodie"/>
+                    </config>
+                </config>
+                <config key="51">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Heather Gray Hoodie"/>
+                    </config>
+                </config>
+                <config key="52">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Grey Hooded Sweatshirt"/>
+                    </config>
+                </config>
+                <config key="53">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Black Hooded Sweatshirt"/>
+                    </config>
+                </config>
+                <config key="54">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Comfort Fit Joggers"/>
+                    </config>
+                </config>
+                <config key="55">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Comfort Drawstring Joggers"/>
+                    </config>
+                </config>
+                <config key="56">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Red Jogger Sweatpants"/>
+                    </config>
+                </config>
+                <config key="57">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Navy Blue Baseball Cap"/>
+                    </config>
+                </config>
+                <config key="58">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Blue Baseball Cap"/>
+                    </config>
+                </config>
+                <config key="59">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Red Baseball Cap"/>
+                    </config>
+                </config>
+                <config key="60">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Black Baseball Cap"/>
+                    </config>
+                </config>
+                <config key="61">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Olive Chino Shorts"/>
+                    </config>
+                </config>
+                <config key="62">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic High-Waisted Athletic Shorts"/>
+                    </config>
+                </config>
+                <config key="63">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic White Crew Neck T-Shirt"/>
+                    </config>
+                </config>
+                <config key="64">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic White Tee - Timeless Style and Comfort"/>
+                    </config>
+                </config>
+                <config key="65">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Black T-Shirt"/>
+                    </config>
+                </config>
+                <config key="66">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek White &amp; Orange Wireless Gaming Controller"/>
+                    </config>
+                </config>
+                <config key="67">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Wireless Headphone &amp; Inked Earbud Set"/>
+                    </config>
+                </config>
+                <config key="68">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Comfort-Fit Over-Ear Headphones"/>
+                    </config>
+                </config>
+                <config key="69">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Efficient 2-Slice Toaster"/>
+                    </config>
+                </config>
+                <config key="70">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Wireless Computer Mouse"/>
+                    </config>
+                </config>
+                <config key="71">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Modern Laptop with Ambient Lighting"/>
+                    </config>
+                </config>
+                <config key="72">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Modern Laptop for Professionals"/>
+                    </config>
+                </config>
+                <config key="73">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Stylish Red &amp; Silver Over-Ear Headphones"/>
+                    </config>
+                </config>
+                <config key="74">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Mirror Finish Phone Case"/>
+                    </config>
+                </config>
+                <config key="75">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Smartwatch with Vibrant Display"/>
+                    </config>
+                </config>
+                <config key="76">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Modern Leather Sofa"/>
+                    </config>
+                </config>
+                <config key="77">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Mid-Century Modern Wooden Dining Table"/>
+                    </config>
+                </config>
+                <config key="78">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Elegant Golden-Base Stone Top Dining Table"/>
+                    </config>
+                </config>
+                <config key="79">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Modern Elegance Teal Armchair"/>
+                    </config>
+                </config>
+                <config key="80">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Elegant Solid Wood Dining Table"/>
+                    </config>
+                </config>
+                <config key="81">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Modern Minimalist Workstation Setup"/>
+                    </config>
+                </config>
+                <config key="82">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Modern Ergonomic Office Chair"/>
+                    </config>
+                </config>
+                <config key="83">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Futuristic Holographic Soccer Cleats"/>
+                    </config>
+                </config>
+                <config key="84">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Rainbow Glitter High Heels"/>
+                    </config>
+                </config>
+                <config key="85">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Chic Summer Denim Espadrille Sandals"/>
+                    </config>
+                </config>
+                <config key="86">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Vibrant Runners: Bold Orange &amp; Blue Sneakers"/>
+                    </config>
+                </config>
+                <config key="87">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Vibrant Pink Classic Sneakers"/>
+                    </config>
+                </config>
+                <config key="88">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Futuristic Silver and Gold High-Top Sneaker"/>
+                    </config>
+                </config>
+                <config key="89">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Futuristic Chic High-Heel Boots"/>
+                    </config>
+                </config>
+                <config key="90">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Elegant Patent Leather Peep-Toe Pumps with Gold-Tone Heel"/>
+                    </config>
+                </config>
+                <config key="91">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Elegant Purple Leather Loafers"/>
+                    </config>
+                </config>
+                <config key="92">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Classic Blue Suede Casual Shoes"/>
+                    </config>
+                </config>
+                <config key="93">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Futuristic Electric Bicycle"/>
+                    </config>
+                </config>
+                <config key="94">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek All-Terrain Go-Kart"/>
+                    </config>
+                </config>
+                <config key="95">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Radiant Citrus Eau de Parfum"/>
+                    </config>
+                </config>
+                <config key="96">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Sleek Olive Green Hardshell Carry-On Luggage"/>
+                    </config>
+                </config>
+                <config key="97">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Chic Transparent Fashion Handbag"/>
+                    </config>
+                </config>
+                <config key="98">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Trendy Pink-Tinted Sunglasses"/>
+                    </config>
+                </config>
+                <config key="99">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Elegant Glass Tumbler Set"/>
+                    </config>
+                </config>
+                <config key="100">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="212"/>
+                    </config>
+                </config>
+                <config key="101">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="New Product"/>
+                    </config>
+                </config>
+                <config key="102">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="New Cotton Shirt"/>
+                    </config>
+                </config>
+                <config key="103">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Mobile Phones"/>
+                    </config>
+                </config>
+                <config key="104">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="teste"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_2">
+        <entry key="column_name" type="xstring" value="descriptions"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain"/>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_3">
+        <entry key="column_name" type="xstring" value="categorys"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="13"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="beauty"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="fragrances"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="furniture"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="groceries"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="men's clothing"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="jewelery"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="electronics"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="women's clothing"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Clothes"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Electronics"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Change title"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Shoes"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Miscellaneous"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_4">
+        <entry key="column_name" type="xstring" value="prices"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="0.99"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="2499.99"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_5">
+        <entry key="column_name" type="xstring" value="discountPercentages"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="0.29"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="19.03"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_6">
+        <entry key="column_name" type="xstring" value="ratings"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="1.9"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="4.94"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_7">
+        <entry key="column_name" type="xstring" value="stocks"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="1"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="99"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_8">
+        <entry key="column_name" type="xstring" value="tagss"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.json.JSONCell"/>
+        </config>
+        <config key="column_domain"/>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_9">
+        <entry key="column_name" type="xstring" value="brands"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="14"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Essence"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Glamour Beauty"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Velvet Touch"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Chic Cosmetics"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Nail Couture"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Calvin Klein"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Chanel"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Dior"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Dolce &amp; Gabbana"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Gucci"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Annibale Colombo"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Furniture Co."/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Knoll"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Bath Trends"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_10">
+        <entry key="column_name" type="xstring" value="skus"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="30"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="RCH45Q1A"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="MVCFH27F"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="9EN8WLT2"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="O5IF1NTA"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="YUIIIP4W"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="DZM2JQZE"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="K71HBCGS"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="E70NB03B"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="1NBFK980"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="FFKZ6HOF"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="4KMDTZWF"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="LUU95CQP"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="OWPLTZYX"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="RKHVJ4FE"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="7OLTIEVO"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="QTROUV79"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="BWWA2MSO"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="C3F8QN6O"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="G5YEHW7B"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Q6ZP1UY8"/>
+                    </config>
+                </config>
+                <config key="20">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="6KGF2K6Z"/>
+                    </config>
+                </config>
+                <config key="21">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="A6QRCH37"/>
+                    </config>
+                </config>
+                <config key="22">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="YA617RI7"/>
+                    </config>
+                </config>
+                <config key="23">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="XNIH1MTA"/>
+                    </config>
+                </config>
+                <config key="24">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="HU7S7VQ0"/>
+                    </config>
+                </config>
+                <config key="25">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Y4RM3JCB"/>
+                    </config>
+                </config>
+                <config key="26">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="BTBNIIOU"/>
+                    </config>
+                </config>
+                <config key="27">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="VEZMU1EQ"/>
+                    </config>
+                </config>
+                <config key="28">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="M2K19S06"/>
+                    </config>
+                </config>
+                <config key="29">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="0X3NORB9"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_11">
+        <entry key="column_name" type="xstring" value="weights"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="2"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="10"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_12">
+        <entry key="column_name" type="xstring" value="dimensionss"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.json.JSONCell"/>
+        </config>
+        <config key="column_domain"/>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_13">
+        <entry key="column_name" type="xstring" value="warrantyInformations"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="6"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="1"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="2"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value=""/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="5"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="6"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="3"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_14">
+        <entry key="column_name" type="xstring" value="shippingInformations"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="6"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Ships in 1 month"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Ships in 2 weeks"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Ships in 1-2 business days"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Ships in 1 week"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Ships overnight"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Ships in 3-5 business days"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_15">
+        <entry key="column_name" type="xstring" value="availabilityStatuss"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="2"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Poucos artigos restantes"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="In Stock"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_16">
+        <entry key="column_name" type="xstring" value="reviewss"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="30"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 2,%%00013%%00010  &quot;comment&quot; : &quot;Very unhappy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;John Doe&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;john.doe@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 2,%%00013%%00010  &quot;comment&quot; : &quot;Not as described!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Nolan Gonzalez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;nolan.gonzalez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very satisfied!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Scarlett Wright&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;scarlett.wright@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very satisfied!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Liam Garcia&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;liam.garcia@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 1,%%00013%%00010  &quot;comment&quot; : &quot;Very disappointed!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Nora Russell&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;nora.russell@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Highly impressed!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Elena Baker&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;elena.baker@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very happy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Ethan Thompson&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;ethan.thompson@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Great value for money!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Levi Hicks&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;levi.hicks@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Highly impressed!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Hazel Gardner&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;hazel.gardner@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Great product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Leo Rivera&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;leo.rivera@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Oscar Powers&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;oscar.powers@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Carter Rivera&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;carter.rivera@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Leo Rivera&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;leo.rivera@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Great product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Evan Reed&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;evan.reed@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Highly recommended!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Evelyn Sanchez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;evelyn.sanchez@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Great value for money!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Sophia Brown&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;sophia.brown@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 3,%%00013%%00010  &quot;comment&quot; : &quot;Very disappointed!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Madison Collins&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;madison.collins@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 1,%%00013%%00010  &quot;comment&quot; : &quot;Poor quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Maya Reed&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;maya.reed@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 1,%%00013%%00010  &quot;comment&quot; : &quot;Disappointing product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Lincoln Kelly&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;lincoln.kelly@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Great product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Lincoln Kelly&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;lincoln.kelly@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Excellent quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Lucas Allen&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;lucas.allen@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Fast shipping!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Zoe Nicholson&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;zoe.nicholson@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Excellent quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Addison Wright&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;addison.wright@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Clara Berry&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;clara.berry@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very satisfied!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Xavier Wright&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;xavier.wright@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 1,%%00013%%00010  &quot;comment&quot; : &quot;Poor quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Mila Hernandez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;mila.hernandez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very happy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Sophia Brown&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;sophia.brown@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Great value for money!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Aria Parker&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;aria.parker@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Excellent quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Natalie Harris&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;natalie.harris@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Fast shipping!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Ava Harris&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;ava.harris@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Great value for money!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Julian Newton&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;julian.newton@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Madison Collins&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;madison.collins@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Clara Berry&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;clara.berry@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very satisfied!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Tyler Davis&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;tyler.davis@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Excellent quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Hannah Robinson&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;hannah.robinson@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 3,%%00013%%00010  &quot;comment&quot; : &quot;Waste of money!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Madison Collins&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;madison.collins@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very happy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;John Doe&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;john.doe@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Highly recommended!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Avery Carter&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;avery.carter@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Evelyn Sanchez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;evelyn.sanchez@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very happy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Leah Gutierrez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;leah.gutierrez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Nolan Gonzalez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;nolan.gonzalez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 2,%%00013%%00010  &quot;comment&quot; : &quot;Waste of money!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Stella Morris&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;stella.morris@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Highly recommended!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Charlotte Lopez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;charlotte.lopez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 1,%%00013%%00010  &quot;comment&quot; : &quot;Would not recommend!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;William Gonzalez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;william.gonzalez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 2,%%00013%%00010  &quot;comment&quot; : &quot;Not worth the price!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Ava Harrison&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;ava.harrison@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Great product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Logan Lee&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;logan.lee@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Great product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Elena Long&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;elena.long@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 1,%%00013%%00010  &quot;comment&quot; : &quot;Not as described!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Grayson Coleman&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;grayson.coleman@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Ethan Martinez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;ethan.martinez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 3,%%00013%%00010  &quot;comment&quot; : &quot;Disappointing product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Owen Fisher&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;owen.fisher@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very happy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Scarlett Wright&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;scarlett.wright@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Mateo Bennett&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;mateo.bennett@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Aurora Barnes&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;aurora.barnes@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Great value for money!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Ellie Stewart&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;ellie.stewart@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very satisfied!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Sophia Jones&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;sophia.jones@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Great value for money!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Maya Reed&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;maya.reed@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Highly recommended!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Harper Turner&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;harper.turner@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Mason Parker&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;mason.parker@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 3,%%00013%%00010  &quot;comment&quot; : &quot;Poor quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Jonathan Pierce&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;jonathan.pierce@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Alexander Hernandez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;alexander.hernandez@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="20">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very satisfied!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Elijah Hill&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;elijah.hill@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Fast shipping!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Liam Garcia&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;liam.garcia@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Excellent quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Ella Cook&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;ella.cook@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="21">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Highly impressed!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Leo Rivera&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;leo.rivera@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Highly recommended!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Alexander Jones&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;alexander.jones@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Addison Wright&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;addison.wright@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="22">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 2,%%00013%%00010  &quot;comment&quot; : &quot;Very unhappy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Mateo Perez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;mateo.perez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very happy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Cameron Perez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;cameron.perez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very happy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Aurora Barnes&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;aurora.barnes@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="23">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Great value for money!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Michael Johnson&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;michael.johnson@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Julian Newton&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;julian.newton@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Excellent quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Lila Hudson&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;lila.hudson@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="24">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Excellent quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Maya Reed&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;maya.reed@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Madison Collins&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;madison.collins@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Would buy again!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Ethan Thompson&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;ethan.thompson@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="25">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 2,%%00013%%00010  &quot;comment&quot; : &quot;Disappointing product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Mateo Bennett&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;mateo.bennett@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Natalie Price&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;natalie.price@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very satisfied!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Avery Barnes&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;avery.barnes@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="26">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Fast shipping!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Nicholas Bailey&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;nicholas.bailey@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Awesome product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Gabriel Hayes&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;gabriel.hayes@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Highly impressed!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;James Garcia&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;james.garcia@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="27">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Great product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Elena Baker&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;elena.baker@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Highly impressed!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Madeline Simpson&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;madeline.simpson@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very happy with my purchase!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Caleb Nelson&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;caleb.nelson@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="28">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Very satisfied!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Leo Rivera&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;leo.rivera@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 2,%%00013%%00010  &quot;comment&quot; : &quot;Not worth the price!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Ethan Martinez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;ethan.martinez@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 4,%%00013%%00010  &quot;comment&quot; : &quot;Excellent quality!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Max Parker&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;max.parker@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+                <config key="29">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[ {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Nora Russell&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;nora.russell@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Very pleased!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Dylan Wells&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;dylan.wells@x.dummyjson.com&quot;%%00013%%00010}, {%%00013%%00010  &quot;rating&quot; : 5,%%00013%%00010  &quot;comment&quot; : &quot;Great product!&quot;,%%00013%%00010  &quot;date&quot; : &quot;23/05/2024 08:56:21&quot;,%%00013%%00010  &quot;reviewerName&quot; : &quot;Noah Hernandez&quot;,%%00013%%00010  &quot;reviewerEmail&quot; : &quot;noah.hernandez@x.dummyjson.com&quot;%%00013%%00010} ]"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_17">
+        <entry key="column_name" type="xstring" value="metas"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.json.JSONCell"/>
+        </config>
+        <config key="column_domain"/>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_18">
+        <entry key="column_name" type="xstring" value="imagess"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.json.JSONCell"/>
+        </config>
+        <config key="column_domain"/>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_19">
+        <entry key="column_name" type="xstring" value="thumbnails"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="30"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/furniture/Bedside%20Table%20African%20Cherry/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Apple/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Beef%20Steak/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Chicken%20Meat/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="20">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Cucumber/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="21">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="22">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Eggs/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="23">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="24">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="25">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="26">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="27">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="28">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Juice/thumbnail.png"/>
+                    </config>
+                </config>
+                <config key="29">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_20">
+        <entry key="column_name" type="xstring" value="reviews_sorted"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.json.JSONCell"/>
+        </config>
+        <config key="column_domain"/>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_21">
+        <entry key="column_name" type="xstring" value="store"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="3"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Amazon"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Wish"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="eBay"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_22">
+        <entry key="column_name" type="xstring" value="counts"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="70"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="679"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_23">
+        <entry key="column_name" type="xstring" value="ratingstr"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="20"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="3.9 em 120 avaliações"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="4.1 em 259 avaliações"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="4.7 em 500 avaliações"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="2.1 em 430 avaliações"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="4.6 em 400 avaliações"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="3.9 em 70 avaliações"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="3 em 400 avaliações"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="1.9 em 100 avaliações"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="3.3 em 203 avaliações"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="2.9 em 470 avaliações"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="4.8 em 319 avaliações"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="4.8 em 400 avaliações"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="2.9 em 250 avaliações"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="2.2 em 140 avaliações"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="2.6 em 235 avaliações"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="2.9 em 340 avaliações"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="3.8 em 679 avaliações"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="4.7 em 130 avaliações"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="4.5 em 146 avaliações"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="3.6 em 145 avaliações"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_24">
+        <entry key="column_name" type="xstring" value="preco_final"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="0.806751"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="2036.4918539999999"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_25">
+        <entry key="column_name" type="xstring" value="brandDescription"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="6"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="A well-known beauty brand offering affordable products."/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Premium makeup brand for professional-grade products."/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Known for smooth and luxurious cosmetic powders."/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Bold, colorful, and trendy beauty products."/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Innovative nail care brand with high-quality polishes."/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Fashion brand famous for fragrances, clothing, and more."/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+</config>
